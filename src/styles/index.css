@@ -11,7 +11,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -91,7 +90,11 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-midnight: #1f1f1f;
-  --color-skillCard: linear-gradient(345deg,_hsla(0,_40%,_100%,_.05),_hsla(0,_0%,_100%,_.1));
+  --color-skillCard: linear-gradient(
+    345deg,
+    _hsla(0, _40%, _100%, _.05),
+    _hsla(0, _0%, _100%, _.1)
+  );
 }
 
 .dark {
