@@ -11,6 +11,6 @@ export const NavbarData = {
   github: "https://github.com/dayercxr",
   linkedin: "https://www.linkedin.com/in/dayer-c-9a9a14231/",
   resumePath:
-    "https://drive.google.com/file/d/1xtFQjtTxfU3H4LBqNP-D6kJB0HILWZ8x/view?usp=drive_link",
+    "https://drive.google.com/file/d/1u3P0OENSYKoI9UhAvboUCl3v_xomuvK0/view?usp=sharing",
   resumeName: "resume.pdf"
 };
