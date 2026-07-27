@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import { HeroData } from "@/data/hero.ts";
-import FlipUp from "@/components/animations/flipUp.tsx";
+import { TextMorph } from "@/components/animations/textMorph";
 import { RiseUp } from "@/components/animations/riseUp.tsx";
 
 export const Hero: FC = () => {
@@ -15,7 +15,7 @@ export const Hero: FC = () => {
           {firstName} {lastName}
         </h1>
         <RiseUp delay={delay}>
-          <FlipUp
+          <TextMorph
             className='text-md md:text-2xl font-bold text-indigo-400'
             words={professions}
           />
