@@ -64,12 +64,7 @@ export function TextMorph({
 }
 
 const TextMorphMotion = () => {
-  return (
-    <TextMorph
-      words={["blocks", "components", "templates"]}
-      className='text-xl sm:text-2xl text-primary'
-    />
-  );
+  return <TextMorph className='text-xl sm:text-2xl text-primary' />;
 };
 
 export default TextMorphMotion;

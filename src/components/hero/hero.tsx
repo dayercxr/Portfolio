@@ -16,7 +16,7 @@ export const Hero: FC = () => {
         </h1>
         <RiseUp delay={delay}>
           <TextMorph
-            className='text-md md:text-2xl font-bold text-indigo-400'
+            className='text-md md:text-2xl font-bold text-indigo-400 justify-center'
             words={professions}
           />
         </RiseUp>
