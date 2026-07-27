@@ -19,7 +19,7 @@ export const Education: FC = () => {
           {educations.map((education) => (
             <li key={education.school} className='mb-10 last:mb-0'>
               <span className='absolute -left-1.75 mt-1.5 size-3 rounded-full border-2 border-background bg-sky-500' />
-              <p className='text-sm font-bold text-primary'>
+              <p className='text-sm font-mono font-bold text-sky-500'>
                 {education.startDate} - {education.endDate}
               </p>
               <div className='flex items-center gap-2'>

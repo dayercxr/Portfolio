@@ -89,7 +89,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --color-midnight: #1f1f1f;
+  --color-midnight: #161617;
   --color-skillCard: linear-gradient(
     345deg,
     _hsla(0, _40%, _100%, _.05),

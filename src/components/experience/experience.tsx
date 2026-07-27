@@ -22,7 +22,7 @@ export const Experience: FC = () => {
           {experiences.map((experience) => (
             <li key={experience.organization} className='mb-10 last:mb-0'>
               <span className='absolute -left-1.75 mt-1.5 size-3 rounded-full border-2 border-background bg-sky-500' />
-              <p className='text-sm font-bold text-primary'>
+              <p className='text-sm font-mono font-bold text-sky-500'>
                 {experience.startDate} - {experience.endDate}
               </p>
               <div className='flex items-center gap-2'>

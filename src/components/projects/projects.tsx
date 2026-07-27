@@ -25,17 +25,17 @@ export const Projects: FC = () => {
       </div>
       <div className='max-lg:grid-cols-3'>
         {projects.map((project) => (
-          <Card className='relative mx-auto max-w-sm px-1.5 py-2 bg-neutral-700 overflow-hidden transition-all duration-300 border-none group hover:bg-neutral-600'>
-            <div className='overflow-hidden rounded-xl max-h-100'>
+          <Card className='relative mx-auto max-w-sm py-0 bg-neutral-800 overflow-hidden transition-all duration-300 border-none border-amber-50 group hover:bg-neutral-700'>
+            <div className='overflow-hidden rounded-t-xl max-h-100'>
               <img
                 src={project.image}
                 alt='Sprout Preview Image'
-                className='rounded-lg z-20 aspect-video h-full w-2xl object-cover transition-all duration-300 group-hover:scale-110'
+                className='rounded-t-lg z-20 aspect-video h-full w-2xl object-cover transition-all duration-300 group-hover:scale-110'
               />
             </div>
-            <CardHeader className=''>
+            <CardHeader>
               <CardAction className='gap-5'>
-                <div className='flex justify-end gap-1 items-center pt-4'>
+                <div className='flex gap-1 items-center'>
                   {project.references.map((reference) => (
                     <HoverCard openDelay={10} closeDelay={75}>
                       <HoverCardTrigger asChild>
@@ -59,12 +59,12 @@ export const Projects: FC = () => {
               <CardDescription className='text-neutral-400'>
                 {project.description}
               </CardDescription>
-              <div className='grid grid-cols-5 gap-x-1.5 gap-y-3 pt-4.5 pb-3'>
+              <div className='grid w-60 max-w-xs grid-cols-5 gap-y-3 pt-3 pb-5.5'>
                 {project.technologies.map((technology) => (
                   <HoverCard openDelay={10} closeDelay={75}>
                     <HoverCardTrigger asChild>
                       <img
-                        className='size-7.5 hover:scale-110 transition mb-1.5'
+                        className='size-7.5 hover:scale-110 transition'
                         src={technology.icon}
                       />
                     </HoverCardTrigger>
