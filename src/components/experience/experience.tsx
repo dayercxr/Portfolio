@@ -43,7 +43,7 @@ export const Experience: FC = () => {
                 )}
               </div>
               <p className='text-sm text-muted-foreground font-semibold'>
-                {experience.organization}
+                {experience.organization} • {experience.role}
               </p>
               <ul className='list-disc pb-6.5 mt-2 max-w-2xl text-pretty text-sm leading-relaxed text-foreground'>
                 {experience.scope.map((scope) => (

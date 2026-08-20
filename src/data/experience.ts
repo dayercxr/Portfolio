@@ -19,8 +19,9 @@ export const ExperienceData = {
   title: "Experience",
   experiences: [
     {
-      position: "Software Developer Intern",
+      position: "Software Developer",
       organization: "RSAF Agile Innovation Digital (RAiD)",
+      role: "Internship",
       startDate: "March 2026",
       endDate: "July 2026",
       scope: [
